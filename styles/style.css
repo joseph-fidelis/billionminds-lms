@@ -1,0 +1,136 @@
+body {
+  height: 100%;
+}
+
+main {
+  background-color: #fdfdfd;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  padding: 35px 150px 0px 150px;
+}
+
+table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+
+td {
+  font-size: 10px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+th {
+  font-weight: 700;
+  font-size: 10px;
+  text-align: center;
+  align-items: start;
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+}
+
+.green-number {
+  background-color: green;
+  color: white;
+  border-radius: 100%;
+  height: 180px;
+  width: 180px;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-number {
+  background-color: skyblue;
+  color: white;
+  border-radius: 100%;
+  height: 180px;
+  width: 180px;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.second-header {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.header-text {
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.padded-left {
+  padding-left: 35px;
+}
+
+hr {
+  width: 100%;
+}
+
+.lines {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.check {
+  margin: 20px 0px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.orange-circle {
+  background-color: orange;
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  margin-right: 5px;
+}
+
+.green-circle {
+  background-color: green;
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  margin-right: 5px;
+}
+
+.blue-circle {
+  background-color: skyblue;
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  margin-right: 5px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
