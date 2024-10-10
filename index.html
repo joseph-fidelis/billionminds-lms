@@ -15,11 +15,20 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
+            background: linear-gradient(135deg, #6dd5ed, #2193b0);
+            height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            background: linear-gradient(135deg, #6dd5ed, #2193b0);
+        }
+
+        h1 {
+            position: absolute;
+            top: 20px;
+            font-size: 36px;
+            color: #fff;
+            text-align: center;
         }
 
         .grid-container {
@@ -41,6 +50,7 @@
             cursor: pointer;
             transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
             border-radius: 12px;
+            text-align: center;
         }
 
         .grid-container a:hover {
@@ -57,6 +67,9 @@
     <title>Index | Start Point</title>
   </head>
 <body>
+
+    <h1>BillionMinds PDF Template</h1>
+
     <div class="grid-container">
         <a href="external-stress.html" target="_blank">Preview PDF 1</a>
         <a href="fostering-team.html" target="_blank">Preview PDF 2</a>
@@ -64,5 +77,6 @@
         <a href="getting_started.html" target="_blank">Preview PDF 4</a>
         <a href="well-being.html" target="_blank">Preview PDF 5</a>
     </div>
+
 </body>
 </html>
