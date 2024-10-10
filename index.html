@@ -10,67 +10,59 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Getting Started</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #6dd5ed, #2193b0);
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .grid-container a {
+            background-color: #fff;
+            color: #2193b0;
+            border: 2px solid #2193b0;
+            padding: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+            border-radius: 12px;
+        }
+
+        .grid-container a:hover {
+            background-color: #2193b0;
+            color: #fff;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            transform: translateY(-5px);
+        }
+
+        .grid-container a:active {
+            transform: translateY(2px);
+        }
+    </style>
+    <title>Index | Start Point</title>
   </head>
-  <body>
-    <main>
-      <section class="heading">
-        <div class="green-number">
-          <h1>0.0</h1>
-        </div>
-        <div class="header-text">
-          <p class="">
-            <span class="header"> Getting Started</span><br />
-            <span class="second-header"> Video length: 2:49</span>
-          </p>
-        </div>
-      </section>
-      <section class="padded-left">
-        <p class="">
-          Before you dive into the rest of the BillionMinds Program, take a
-          moment to figure out how fast you plan to go through this program. As
-          a manager, you want to go fast enough that you can keep up with your
-          employes, but slow enough that you can make positive changes to your
-          own behaviour, Next, figure out how you will connect with team members
-          who are going through the program at the same time as you. Such as
-          creating a dedicated Slack channel or scheduling "takeaway" meetings
-          for the team.
-        </p>
-      </section>
-      <section class="">
-        <div class="">
-          <div class="flex-row">
-            <div class="orange-circle"></div>
-            <p class="font-small">
-              Determine how you will communicate with your team about the
-              BillionMinds program.
-            </p>
-          </div>
-          <div class="padded-left lines">
-            <hr />
-            <hr />
-            <hr />
-            <hr />
-            <hr />
-            <hr />
-            <hr />
-            <hr />
-          </div>
-        </div>
-        <div class="">
-          <div class="flex-row">
-            <div class="green-circle"></div>
-            <p class="font-small">Do the following:</p>
-          </div>
-          <div class="padded-left">
-            <div class="padded-left check">
-              <input type="checkbox" name="" id="" />
-              Communicate this with your team through Slack, email, or some
-              other method.
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
+<body>
+    <div class="grid-container">
+        <a href="external-stress.html" target="_blank">Preview PDF 1</a>
+        <a href="fostering-team.html" target="_blank">Preview PDF 2</a>
+        <a href="managing-info.html" target="_blank">Preview PDF 3</a>
+        <a href="getting_started.html" target="_blank">Preview PDF 4</a>
+        <a href="well-being.html" target="_blank">Preview PDF 5</a>
+    </div>
+</body>
 </html>
